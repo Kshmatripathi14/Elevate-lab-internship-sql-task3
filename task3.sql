@@ -1,7 +1,3 @@
--- Task 3: Writing Basic SELECT Queries
--- Internship SQL Developer Task
--- Database: Sample Company Database (employees table assumed)
-
 -- 1. Select all columns from the employees table
 SELECT * 
 FROM employees;
@@ -49,3 +45,4 @@ ORDER BY full_name ASC;
 SELECT first_name, last_name, department
 FROM employees
 WHERE department IN ('IT', 'Finance');
+
